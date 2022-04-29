@@ -123,3 +123,11 @@ body{
   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
+.card{
+  background-color: #00A99D;
+}
+
+#bloc-intro, #bloc-center {
+  margin-bottom: 150px;
+}
+

@@ -27,7 +27,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Espace Client</a>
@@ -49,7 +49,7 @@
           <div class="image-friends"></div>
       </section>
   <!--------- IMAGE bloc start ---------->
-      <section class="container intro mt-5 mb-5">
+      <section id="bloc-intro" class="container mt-5">
         <div class="row">
          <div class=" p-3 col-sm-12 col-md-12 col-lg-6">
            <p class="display-6 text-center">Avec Pay my Buddy</p>
@@ -59,41 +59,36 @@
            </div>
         </div> 
          <div class="col-sm-12 col-md-12 col-lg-6">
-           <img class="image-women" src="./assets/brand/youngWomen1.png" alt=""></div> <hr>
+           <img class="image-women" src="./assets/brand/youngWomen1.png" alt=""></div> 
         </div>   
     </section>
-  
-    <section id="contact mt-5 pt-5" >
-      <div class="mx-auto mt-5" style="width: 60%;">
-            <h2 class="mt-5">Nous contacter</h2>
-            <p>Une question, une remarque ? Utilisez notre formulaire.</p>
-          <div class="mb-3">
-            <label for="FormControlMail" class="form-label">Votre adresse mail</label>
-            <input type="email" class="form-control" id="FormControlContact" placeholder="mail@exemple.com">
+
+    <!------------Bloc center image----------------------->
+    <section id="bloc-center" class="container d-flex justify-content-center align-items-center">
+      <div class="row" >
+        <div class="col img-fluid">
+          <img src="./assets/brand/texting-1490691_640.jpg" alt="">
+        </div>
+        <div class="col d-sm-inline-flex d-md-inline-flex align-self-center m-2">
+          <div class="card text-center text-white">
+            <div class="card-body ">
+              <h5 class="card-title">Simple et rapide !</h5>
+              <p class="card-text pt-">Une adresse mail et un clic suffisent pour votre transfert</p>
+              <a href="inscription.html" class="btn btn-light">Je connecte mes amis</a>
+            </div>
           </div>
-          <select class="form-select mb-3" aria-label="Default select example">
-            <option selected>Objet du message</option>
-            <option value="infos">Question</option>
-            <option value="remarque">Remarque</option>
-            <option value="client">Service client</option>
-          </select>
-          <div>
-            <label for="exampleFormControlTextarea1" class="form-label" >Votre message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Dites-nous tout..."></textarea>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              J'accepte les conditions générales de traitement des données
-            </label>
-          </div>
-          <div class="mt-3">
-            <button class="btn btn-primary" type="submit">Envoyer mon message</button>
-          </div>
-        </form>
+        </div>
       </div>
     </section>
- 
+  
+   
+
+      
+
+
+
+
+    <!----------- footer------->
     <footer class="mt-5 py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
