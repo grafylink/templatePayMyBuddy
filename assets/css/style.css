@@ -54,74 +54,19 @@
 }
 
 #bloc-intro, #bloc-center {
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
 
 
-
-/* formulaire de connexion */
-
-.connexion-fm {
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
-}
-
-.form-connexion{
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-}
-
-.form-connexion .checkbox {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-}
-
-.form-connexion {
-  z-index: 2;
-}
-
-.form-connexion input[type="email"] {
-  margin-bottom: 5px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.form-connexion input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
 
 #bouton-form{
   background-color: #00A99D;
 }
 
-
 .form-register{
   max-width: 350px;
   margin: 0 auto;
  }
-
-
-
-
-/* 
-.intro{
-  display: flex;
-  flex-flow: row wrap;
-} */
-
-
-
-
-/* inscription */
 
 .btn-valid{
   background-color: #00A99D;
