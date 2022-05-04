@@ -32,8 +32,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Espace Client</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                  <li><a class="dropdown-item" href="#">Compte</a></li>
-                  <li><a class="dropdown-item" href="#">Transfert</a></li>
+                  <li><a class="dropdown-item" href="Dashboard.html">Dashboard</a></li>
                   <li><a class="dropdown-item" href="index.html">Deconnexion </a></li>
                 </ul>
               </li>
@@ -47,23 +46,23 @@
       </nav>
       <!-- formulaire inscription -->
       <section class="container inscription">
-        <div class="row">
-          <form action="" class="form-register mt-5">
+        <div>
+          <form action="" class="form-register mt-5 needs-validation " novalidate>
               <img class="mb-4 d-block mx-auto" src="./assets/brand/logoPMB.png" alt="logo pay my buddy" width="72" height="57">
               <p class="h3 text-center mb-5">Ouvrir un compte</p>
              <!-- email -->
               <div> 
-                <input type="email" class="form-control p-3" placeholder="email@exemple.com" id="registerEmail" >
+                <input type="email" class="form-control p-3" placeholder="email@exemple.com" required  id="registerEmail" >
                 <label for="registerEmail" class="col-form-label text-muted"></label>
               </div>
               <!-- mot de passe -->
               <div>
-                <input type="password" class="form-control p-3" id="registerPassword" placeholder="mot de passe">
+                <input type="password" class="form-control p-3" id="registerPassword"  required placeholder="mot de passe">
                 <label for="registerPassword" class="col-form-label text-muted"></label>
               </div> 
               <!-- Confirmation saisie du mot de passe -->
               <div>
-                <input type="password" class="form-control p-3" id="confirmPassword" placeholder="confirmer mot de passe">
+                <input type="password" class="form-control p-3" id="confirmPassword"  required placeholder="confirmer mot de passe">
                 <label for="confirmPassword" class=" col-form-label text-muted"></label>
               </div>
               <!-- boutons valider et réinitialiser + Retour Home + icone svg bootstrap -->

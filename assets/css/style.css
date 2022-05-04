@@ -4,11 +4,9 @@
   box-sizing: border-box;
 }
 
-  html, body {
-    height: 100vh;
-  }
-
   body{
+    position: relative;
+    height: 100vh;
     background-color: #f1f1f1;
   }
   
@@ -33,7 +31,7 @@
 /* bloc intro Image jeune fille */
 .btn-start{
   text-transform: uppercase;
-  background-color: hsl(176, 100%, 33%);
+  background-color: #00A99D;
   color: #ffffff;
 }
 
@@ -53,11 +51,10 @@
   background-color: #00A99D;
 }
 
-#bloc-intro, #bloc-center {
-  margin-bottom: 120px;
+#bloc-center{
+  margin-top: 50px;
+  margin-bottom: 250px;
 }
-
-
 
 #bouton-form{
   background-color: #00A99D;
@@ -65,7 +62,7 @@
 
 .form-register{
   max-width: 350px;
-  margin: 0 auto;
+  margin: 70px auto 90px;
  }
 
 .btn-valid{
@@ -79,6 +76,20 @@
 
 }
 
+#contact{
+  width: 60%;
+}
+
+.nav-item> a{
+  text-decoration: none;
+ 
+}
+
+.nav-item> a> span{
+  color: black;
+}
+
+
 /* ----------Footer--------------- */
 
 .foot {
@@ -89,3 +100,8 @@
   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
+footer{
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
